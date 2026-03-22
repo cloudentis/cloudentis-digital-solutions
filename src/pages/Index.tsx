@@ -62,7 +62,7 @@ const Index = () => {
               {t("hero.cta")}
             </Link>
             <a
-              href="mailto:info@cloudentis.de"
+              href="mailto:sales@cloudentis.de"
               className="inline-block border border-primary-foreground/20 text-primary-foreground px-8 py-3 rounded-md font-medium text-sm hover:bg-primary-foreground/5 active:scale-[0.97] transition-all duration-200"
             >
               {t("hero.cta2")}
@@ -124,7 +124,7 @@ const Index = () => {
           </ScrollReveal>
           <ScrollReveal delay={100}>
             <a
-              href="mailto:info@cloudentis.de"
+              href="mailto:sales@cloudentis.de"
               className="inline-block mt-8 bg-primary text-primary-foreground px-10 py-3.5 rounded-md font-medium text-sm hover:brightness-110 active:scale-[0.97] transition-all duration-200"
             >
               {t("cta.button")}

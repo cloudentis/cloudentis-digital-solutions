@@ -17,7 +17,7 @@ const translations: Record<Language, Record<string, string>> = {
     "nav.contact": "Kontakt",
 
     // Hero
-    "hero.title": "WIR DIGITALISIEREN MITTELSTAND",
+    "hero.title": "Experten-gestützte Digitalisierung",
     "hero.subtitle": "Gemeinsam Zukunft gestalten",
     "hero.tagline": "Wachstum. Resilienz. Nachhaltigkeit.",
     "hero.cta": "Unser Beratungsansatz",
@@ -49,9 +49,9 @@ const translations: Record<Language, Record<string, string>> = {
     // About
     "about.title": "Über mich",
     "about.subtitle": "Der Mensch hinter Cloudentis",
-    "about.intro": "Als Gründer und Inhaber von Cloudentis bringe ich langjährige Erfahrung in der IT-Beratung und Digitalisierung mit. Meine Leidenschaft gilt der Verbindung von Technologie und Geschäftsprozessen, um mittelständischen Unternehmen echten Mehrwert zu bieten.",
+    "about.intro": "Cloudentis steht für High-End-Digitalisierung zu fairen Konditionen. Als IT-Student mit dem Fokus auf Business Technology kombiniere ich aktuelles Expertenwissen mit über drei Jahren praktischer Erfahrung in der Microsoft-Welt (Dynamics 365 & Power Platform).Ich baue keine Standard-Software, sondern passgenaue Lösungen für Ihre individuellen Anforderungen.Durch meine schlanke Arbeitsweise als Solo-Spezialist biete ich Ihnen maximale Qualität bei minimalem Overhead. Das Ergebnis: Effiziente IT-Projekte, die Ihr Budget respektieren und Ihre Prozesse zukunftssicher machen.",
     "about.experience.title": "Erfahrung",
-    "about.experience.text": "Über 10 Jahre Erfahrung in der IT-Branche mit Fokus auf Microsoft Dynamics 365, Power Platform und Cloud-Technologien.",
+    "about.experience.text": "Über 3 Jahre Erfahrung in der IT-Branche mit Fokus auf Microsoft Dynamics 365, Power Platform und Cloud-Technologien.",
     "about.approach.title": "Mein Ansatz",
     "about.approach.text": "Partnerschaftlich, praxisnah und ergebnisorientiert. Ich glaube an nachhaltige Lösungen, die wirklich funktionieren.",
     "about.values.title": "Werte",
@@ -69,21 +69,22 @@ const translations: Record<Language, Record<string, string>> = {
     "footer.privacy": "Datenschutz",
   },
   en: {
+    // Nav
     "nav.home": "Home",
     "nav.services": "What We Do",
     "nav.about": "Who Am I",
     "nav.contact": "Contact",
-
-    "hero.title": "WE DIGITALIZE SMEs",
+    // Hero
+    "hero.title": "Expert-Led Digitalization",
     "hero.subtitle": "Shaping the future together",
     "hero.tagline": "Growth. Resilience. Sustainability.",
     "hero.cta": "Our Consulting Approach",
     "hero.cta2": "Get in Touch",
-
+    // Discover
     "discover.tag": "#Discover Cloudentis",
     "discover.headline": "Passion meets Expertise",
     "discover.text": "We connect your business processes with smart IT solutions, strengthen customer relationships through optimized CRM and support with practical consulting. Our goal: Simple, impactful digitalization for your business.",
-
+    // Services
     "services.crm.title": "CRM & Dynamics 365",
     "services.crm.desc": "Microsoft Dynamics 365 and Power Platform expertise – Benefit from successful consulting and implementation projects.",
     "services.power.title": "Microsoft Power Platform",
@@ -96,24 +97,24 @@ const translations: Record<Language, Record<string, string>> = {
     "services.cloud.desc": "Secure and scalable cloud infrastructures for modern businesses.",
     "services.iot.title": "IoT & Connectivity",
     "services.iot.desc": "Connected solutions for the entire IoT value chain – from sensor to analytics.",
-
+    // CTA
     "cta.headline": "Your digitalization initiative is looking for us!",
     "cta.button": "Talk to us",
-
+    // About
     "about.title": "About Me",
     "about.subtitle": "The Person Behind Cloudentis",
-    "about.intro": "As the founder and owner of Cloudentis, I bring years of experience in IT consulting and digitalization. My passion lies in connecting technology with business processes to deliver real value for SMEs.",
+    "about.intro": "I founded Cloudentis to bridge the gap between high-end digital transformation and sustainable budgets. As a dedicated IT student specializing in the intersection of Technology and Business, I bring the latest 2026 industry standards directly to your projects. With over 3 years of hands-on experience in the Microsoft ecosystem—specifically Dynamics 365 CRM and the Power Platform—I don't just build software; I build solutions that respect your bottom line. My approach is Lean, Agile, and Transparent. By operating as a solo specialist, I eliminate the overhead costs of large agencies, passing those savings directly to you without compromising on quality or security.",
     "about.experience.title": "Experience",
-    "about.experience.text": "Over 10 years of experience in the IT industry with a focus on Microsoft Dynamics 365, Power Platform and cloud technologies.",
+    "about.experience.text": "Over 3 years of experience in the IT industry with a focus on Microsoft Dynamics 365, Power Platform and cloud technologies.",
     "about.approach.title": "My Approach",
     "about.approach.text": "Partnership-oriented, practical and results-driven. I believe in sustainable solutions that truly work.",
     "about.values.title": "Values",
     "about.values.text": "Transparency, quality and reliability form the foundation of my work. Every project is executed with full commitment.",
-
+    // Services Page
     "servicesPage.title": "What We Do",
     "servicesPage.subtitle": "Our Services at a Glance",
     "servicesPage.intro": "From strategic consulting to technical implementation – we accompany you on the entire path of digitalization.",
-
+    // Footer
     "footer.rights": "All rights reserved.",
     "footer.einzelunternehmen": "Sole Proprietorship",
     "footer.imprint": "Imprint",

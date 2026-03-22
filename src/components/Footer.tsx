@@ -1,4 +1,5 @@
 import { useLanguage } from "@/contexts/LanguageContext";
+import { Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -13,7 +14,14 @@ const Footer = () => {
             </p>
             <p className="text-xs mt-1">{t("footer.einzelunternehmen")}</p>
           </div>
-          <div className="flex gap-6 text-sm">
+          <div className="flex flex-wrap items-center gap-6 text-sm">
+            <a href="mailto:sales@cloudentis.de" className="hover:text-primary transition-colors flex items-center gap-2">
+              <Mail size={16} /> sales@cloudentis.de
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              <Linkedin size={18} />
+            </a>
+            <div className="w-px h-4 bg-primary-foreground/20 hidden md:block" />
             <a href="#" className="hover:text-primary transition-colors">{t("footer.imprint")}</a>
             <a href="#" className="hover:text-primary transition-colors">{t("footer.privacy")}</a>
           </div>

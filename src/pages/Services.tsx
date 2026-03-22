@@ -63,7 +63,7 @@ const Services = () => {
             {t("cta.headline")}
           </h2>
           <a
-            href="mailto:info@cloudentis.de"
+            href="mailto:sales@cloudentis.de"
             className="inline-block bg-primary text-primary-foreground px-10 py-3.5 rounded-md font-medium text-sm hover:brightness-110 active:scale-[0.97] transition-all duration-200"
           >
             {t("cta.button")}

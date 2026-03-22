@@ -1,6 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import ScrollReveal from "@/components/ScrollReveal";
-import founderImg from "@/assets/founder.jpg";
+
 import { Briefcase, Compass, Heart } from "lucide-react";
 
 const About = () => {
@@ -41,16 +41,16 @@ const About = () => {
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <ScrollReveal animation="slide-left" className="lg:w-2/5 flex-shrink-0">
               <div className="relative rounded-lg overflow-hidden shadow-2xl shadow-foreground/10">
-                <img
-                  src={founderImg}
-                  alt="Founder"
-                  className="w-full aspect-[4/5] object-cover"
-                  loading="lazy"
-                />
+                <div className="w-full aspect-[4/5] bg-muted flex items-center justify-center text-muted-foreground">
+                  <span className="text-sm border border-dashed border-muted-foreground/30 px-4 py-8 rounded-md italic">
+                    Image removed
+                  </span>
+                </div>
                 <div className="absolute inset-0 ring-1 ring-inset ring-foreground/10 rounded-lg" />
               </div>
             </ScrollReveal>
             <ScrollReveal animation="slide-right" className="lg:w-3/5">
+              <h2 className="text-3xl font-bold font-heading mb-6 text-foreground">Vaishnavi Onkar Magdum</h2>
               <p className="text-muted-foreground text-lg leading-relaxed text-pretty">
                 {t("about.intro")}
               </p>
