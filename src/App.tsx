@@ -19,7 +19,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <LanguageProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/cloudentis-digital-solutions">
           <Navbar />
           <Routes>
             <Route path="/" element={<Index />} />
