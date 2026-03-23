@@ -49,7 +49,7 @@ const translations: Record<Language, Record<string, string>> = {
     // About
     "about.title": "Über mich",
     "about.subtitle": "Der Mensch hinter Cloudentis",
-    "about.intro": "Cloudentis steht für High-End-Digitalisierung zu fairen Konditionen. Als IT-Student mit dem Fokus auf Business Technology kombiniere ich aktuelles Expertenwissen mit über drei Jahren praktischer Erfahrung in der Microsoft-Welt (Dynamics 365 & Power Platform).Ich baue keine Standard-Software, sondern passgenaue Lösungen für Ihre individuellen Anforderungen.Durch meine schlanke Arbeitsweise als Solo-Spezialist biete ich Ihnen maximale Qualität bei minimalem Overhead. Das Ergebnis: Effiziente IT-Projekte, die Ihr Budget respektieren und Ihre Prozesse zukunftssicher machen.",
+    "about.intro": "CloudEntis steht für erstklassige digitale Transformation zu wirtschaftlich nachhaltigen Konditionen. Mit mehr als 5 Jahren Erfahrung im Microsoft-Ecosystem – spezialisiert auf Dynamics 365 CRM und die Power Platform – entwickle ich Lösungen, die Ihre Geschäftsprozesse optimieren und Ihren ROI maximieren. Mein Fokus im Jahr 2026 liegt auf der Implementierung von Agentic AI: Ich entwickle autonome Agenten, die über einfaches Chatten hinausgehen, komplexe Workflows selbstständig ausführen und fundierte Entscheidungen in Echtzeit treffen. Als spezialisierter Berater biete ich Ihnen direkten Zugriff auf modernste Technologiestandards – ohne den Overhead großer Agenturen, aber mit kompromissloser Sicherheit und Qualität.",
     "about.experience.title": "Erfahrung",
     "about.experience.text": "Über 3 Jahre Erfahrung in der IT-Branche mit Fokus auf Microsoft Dynamics 365, Power Platform und Cloud-Technologien.",
     "about.approach.title": "Mein Ansatz",
@@ -127,7 +127,7 @@ const translations: Record<Language, Record<string, string>> = {
     // About
     "about.title": "About Me",
     "about.subtitle": "The Person Behind Cloudentis",
-    "about.intro": "I founded Cloudentis to bridge the gap between high-end digital transformation and sustainable budgets. As a dedicated IT student specializing in the intersection of Technology and Business, I bring the latest 2026 industry standards directly to your projects. With over 3 years of hands-on experience in the Microsoft ecosystem—specifically Dynamics 365 CRM and the Power Platform—I don't just build software; I build solutions that respect your bottom line. My approach is Lean, Agile, and Transparent. By operating as a solo specialist, I eliminate the overhead costs of large agencies, passing those savings directly to you without compromising on quality or security.",
+    "about.intro": "I founded CloudEntis to provide enterprises with high-end digital transformation that remains commercially sustainable. With over 5 years of deep technical expertise across the Microsoft ecosystem—specifically Dynamics 365 CRM and the Power Platform—I architect solutions that bridge the gap between complex technology and your bottom line. In 2026, I specialize in the deployment of Agentic AI—moving beyond passive assistants to autonomous agents that execute multi-step business workflows and drive real-time decision-making. My methodology is Lean and Agile, eliminating the heavy overhead of traditional agencies. This allows me to deliver the latest industry standards and uncompromising security directly to your projects, ensuring your investment drives measurable business value.",
     "about.experience.title": "Experience",
     "about.experience.text": "Over 3 years of experience in the IT industry with a focus on Microsoft Dynamics 365, Power Platform and cloud technologies.",
     "about.approach.title": "My Approach",
@@ -143,7 +143,7 @@ const translations: Record<Language, Record<string, string>> = {
     "footer.einzelunternehmen": "Sole Proprietorship",
     "footer.imprint": "Imprint",
     "footer.privacy": "Privacy Policy",
-    
+
     // Impressum
     "impressum.title": "Legal Notice / Imprint",
     "impressum.section1.title": "Information pursuant to § 5 DDG",
