@@ -2,9 +2,9 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
 import heroBg from "@/assets/hero-bg.jpg";
-import { Monitor, Zap, BarChart3, Users, Cloud, Cpu } from "lucide-react";
+import { Monitor, Zap, BarChart3, Users, Bot, Cloud } from "lucide-react";
 
-const serviceIcons = [Monitor, Zap, BarChart3, Users, Cloud, Cpu];
+const serviceIcons = [Monitor, Zap, BarChart3, Users, Bot, Cloud];
 
 const Index = () => {
   const { t } = useLanguage();
@@ -14,8 +14,8 @@ const Index = () => {
     { title: t("services.power.title"), desc: t("services.power.desc") },
     { title: t("services.data.title"), desc: t("services.data.desc") },
     { title: t("services.consulting.title"), desc: t("services.consulting.desc") },
+    { title: t("services.ai.title"), desc: t("services.ai.desc") },
     { title: t("services.cloud.title"), desc: t("services.cloud.desc") },
-    { title: t("services.iot.title"), desc: t("services.iot.desc") },
   ];
 
   return (

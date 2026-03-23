@@ -1,6 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import ScrollReveal from "@/components/ScrollReveal";
-import { Monitor, Zap, BarChart3, Users, Cloud, Cpu } from "lucide-react";
+import { Monitor, Zap, BarChart3, Users, Bot, Cloud } from "lucide-react";
 
 const Services = () => {
   const { t } = useLanguage();
@@ -10,8 +10,8 @@ const Services = () => {
     { title: t("services.power.title"), desc: t("services.power.desc"), Icon: Zap },
     { title: t("services.data.title"), desc: t("services.data.desc"), Icon: BarChart3 },
     { title: t("services.consulting.title"), desc: t("services.consulting.desc"), Icon: Users },
+    { title: t("services.ai.title"), desc: t("services.ai.desc"), Icon: Bot },
     { title: t("services.cloud.title"), desc: t("services.cloud.desc"), Icon: Cloud },
-    { title: t("services.iot.title"), desc: t("services.iot.desc"), Icon: Cpu },
   ];
 
   return (

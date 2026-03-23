@@ -9,6 +9,8 @@ import Footer from "@/components/Footer";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
 import About from "./pages/About";
+import Impressum from "./pages/Impressum";
+import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +27,8 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
+            <Route path="/impressum" element={<Impressum />} />
+            <Route path="/privacy" element={<Privacy />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />

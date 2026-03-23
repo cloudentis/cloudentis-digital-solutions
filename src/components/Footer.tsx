@@ -1,5 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Linkedin, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -22,8 +23,12 @@ const Footer = () => {
               <Linkedin size={18} />
             </a>
             <div className="w-px h-4 bg-primary-foreground/20 hidden md:block" />
-            <a href="#" className="hover:text-primary transition-colors">{t("footer.imprint")}</a>
-            <a href="#" className="hover:text-primary transition-colors">{t("footer.privacy")}</a>
+            <Link to="/impressum" className="hover:text-primary transition-colors">
+              {t("footer.imprint")}
+            </Link>
+            <Link to="/privacy" className="hover:text-primary transition-colors">
+              {t("footer.privacy")}
+            </Link>
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-primary-foreground/10 text-center text-xs">

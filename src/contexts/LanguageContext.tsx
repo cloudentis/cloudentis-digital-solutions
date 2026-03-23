@@ -39,8 +39,8 @@ const translations: Record<Language, Record<string, string>> = {
     "services.consulting.desc": "Maßgeschneiderte Best-Practice-Lösungen und strategische Beratung für den Mittelstand.",
     "services.cloud.title": "Cloud-Lösungen",
     "services.cloud.desc": "Sichere und skalierbare Cloud-Infrastrukturen für moderne Unternehmen.",
-    "services.iot.title": "IoT & Vernetzung",
-    "services.iot.desc": "Vernetzte Lösungen für die gesamte IoT-Wertschöpfungskette – vom Sensor bis zur Analyse.",
+    "services.ai.title": "Agentic AI & KI-Beratung",
+    "services.ai.desc": "Intelligente Automatisierung durch modernste KI-Agenten und strategische KI-Beratung für Ihr Unternehmen.",
 
     // CTA
     "cta.headline": "Ihre Digitalisierungsinitiative sucht uns!",
@@ -67,6 +67,30 @@ const translations: Record<Language, Record<string, string>> = {
     "footer.einzelunternehmen": "Einzelunternehmen",
     "footer.imprint": "Impressum",
     "footer.privacy": "Datenschutz",
+
+    // Impressum
+    "impressum.title": "Impressum",
+    "impressum.section1.title": "Angaben gemäß § 5 DDG",
+    "impressum.section1.content": "Vaishnavi Onkar Magdum\nCloudentis\nParadiesstraße 34\n73230 Kirchheim unter Teck",
+    "impressum.section2.title": "Kontakt",
+    "impressum.section2.content": "Telefon: +49 155 65359460\nE-Mail: info@cloudentis.de",
+    "impressum.section3.title": "Umsatzsteuer-Identifikationsnummer",
+    "impressum.section3.content": "Nicht vorhanden (gemäß § 19 UStG wird keine Umsatzsteuer erhoben).",
+    "impressum.section4.title": "EU-Streitschlichtung",
+    "impressum.section4.content": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/.\nUnsere E-Mail-Adresse finden Sie oben im Impressum.",
+    "impressum.section5.title": "Verbraucherstreitbeilegung/Universalschlichtungsstelle",
+    "impressum.section5.content": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+
+    // Privacy
+    "privacy.title": "Datenschutzerklärung",
+    "privacy.section1.title": "1. Datenschutz auf einen Blick",
+    "privacy.section1.content": "Allgemeine Hinweise\nDie folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.\n\nDatenerfassung auf dieser Website\nDie Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.",
+    "privacy.section2.title": "2. Hosting durch GitHub Pages",
+    "privacy.section2.content": "Wir hosten unsere Website bei GitHub Pages. Anbieter ist die GitHub Inc., 88 Colin P. Kelly Jr. St, San Francisco, CA 94107, USA (nachfolgend „GitHub“).\n\nWenn Sie unsere Website besuchen, erfasst GitHub Log-Dateien, einschließlich Ihrer IP-Adresse, um die Sicherheit und den Betrieb des Dienstes zu gewährleisten. Die Verwendung von GitHub Pages erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website.\n\nDatenübertragung in die USA\nDie Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: GitHub Privacy Statement.",
+    "privacy.section3.title": "3. Allgemeine Hinweise und Pflichtinformationen",
+    "privacy.section3.content": "Widerruf Ihrer Einwilligung zur Datenverarbeitung\nViele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.\n\nBeschwerderecht bei der zuständigen Aufsichtsbehörde\nIm Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde zu.\n\nRecht auf Auskunft, Löschung und Korrektur\nSie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten sowie ein Recht auf Berichtigung oder Löschung dieser Daten.",
+    "privacy.section4.title": "4. Datenerfassung auf dieser Website",
+    "privacy.section4.content": "Server-Log-Dateien\nDer Provider der Seiten erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:\n\n• Browsertyp und Browserversion\n• Verwendetes Betriebssystem\n• Referrer URL\n• Hostname des zugreifenden Rechners\n• Uhrzeit der Serveranfrage\n• IP-Adresse\n\nEine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO.",
   },
   en: {
     // Nav
@@ -95,8 +119,8 @@ const translations: Record<Language, Record<string, string>> = {
     "services.consulting.desc": "Tailored best-practice solutions and strategic consulting for SMEs.",
     "services.cloud.title": "Cloud Solutions",
     "services.cloud.desc": "Secure and scalable cloud infrastructures for modern businesses.",
-    "services.iot.title": "IoT & Connectivity",
-    "services.iot.desc": "Connected solutions for the entire IoT value chain – from sensor to analytics.",
+    "services.ai.title": "Agentic AI & AI Consulting",
+    "services.ai.desc": "Intelligent automation through cutting-edge AI agents and strategic AI consulting for your business.",
     // CTA
     "cta.headline": "Your digitalization initiative is looking for us!",
     "cta.button": "Talk to us",
@@ -119,6 +143,30 @@ const translations: Record<Language, Record<string, string>> = {
     "footer.einzelunternehmen": "Sole Proprietorship",
     "footer.imprint": "Imprint",
     "footer.privacy": "Privacy Policy",
+    
+    // Impressum
+    "impressum.title": "Legal Notice / Imprint",
+    "impressum.section1.title": "Information pursuant to § 5 DDG",
+    "impressum.section1.content": "Vaishnavi Onkar Magdum\nCloudentis\nParadiesstraße 34\n73230 Kirchheim unter Teck",
+    "impressum.section2.title": "Contact",
+    "impressum.section2.content": "Phone: +49 155 65359460\nEmail: info@cloudentis.de",
+    "impressum.section3.title": "VAT ID",
+    "impressum.section3.content": "Not applicable (no VAT is charged pursuant to § 19 UStG).",
+    "impressum.section4.title": "EU Dispute Resolution",
+    "impressum.section4.content": "The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/.\nOur email address can be found above in the legal notice.",
+    "impressum.section5.title": "Consumer Dispute Resolution",
+    "impressum.section5.content": "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+
+    // Privacy
+    "privacy.title": "Privacy Policy",
+    "privacy.section1.title": "1. Privacy at a Glance",
+    "privacy.section1.content": "General Information\nThe following information provides a simple overview of what happens to your personal data when you visit this website. Personal data is any data with which you could be personally identified.\n\nData collection on this website\nData processing on this website is carried out by the website operator. You can find their contact details in the imprint of this website.",
+    "privacy.section2.title": "2. Hosting via GitHub Pages",
+    "privacy.section2.content": "We host our website on GitHub Pages. The provider is GitHub Inc., 88 Colin P. Kelly Jr. St, San Francisco, CA 94107, USA (hereinafter referred to as \"GitHub\").\n\nWhen you visit our website, GitHub collects log files, including your IP address, to ensure the security and operation of the service. GitHub Pages is used on the basis of Art. 6 Para. 1 lit. f GDPR. We have a legitimate interest in the most reliable presentation of our website.\n\nData transfer to the USA\nData transfer to the US is based on the standard contractual clauses of the EU Commission. Details can be found here: GitHub Privacy Statement.",
+    "privacy.section3.title": "3. General Information and Mandatory Information",
+    "privacy.section3.content": "Revocation of your consent to data processing\nMany data processing operations are only possible with your express consent. You can revoke your consent at any time. The legality of the data processing carried out until the revocation remains unaffected by the revocation.\n\nRight to complain to the competent supervisory authority\nIn the event of violations of the GDPR, those affected have the right to lodge a complaint with a supervisory authority.\n\nRight to information, deletion and correction\nWithin the framework of the applicable legal provisions, you have the right to free information about your stored personal data at any time, as well as the right to have this data corrected or deleted.",
+    "privacy.section4.title": "4. Data collection on this website",
+    "privacy.section4.content": "Server log files\nThe provider of the pages automatically collects and stores information in so-called server log files, which your browser automatically transmits to us. These are:\n\n• Browser type and browser version\n• Operating system used\n• Referrer URL\n• Host name of the accessing computer\n• Time of the server request\n• IP address\n\nThis data is not merged with other data sources. The basis for data processing is Art. 6 (1) lit. f GDPR.",
   },
 };
 
